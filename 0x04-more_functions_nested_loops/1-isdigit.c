@@ -1,27 +1,14 @@
 #include "main.h"
+
 /**
- * _isdigit - checks for a digit
- * @c: int
- * Return: 0 is c is a digit or 1
-*/
+* _isdigit - Returns 1 if c is a digit
+* @c: takes in a character
+* Return: 0 for uppercase, 1 for lowercase
+**/
 int _isdigit(int c)
 {
-	int ch, comp;
-
-	comp = 0;
-	for (ch = 0; ch <= 9; ch++)
-	{
-		if (ch == c)
-		{
-			comp++;
-		}
-	}
-	if (comp == 2)
-	{
+	if (c >= '0' && c <= '9')
 		return (1);
-	}
 	else
-	{
 		return (0);
-	}
 }
