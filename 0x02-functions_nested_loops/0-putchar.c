@@ -1,12 +1,12 @@
 #include"main.h"
 
 /**
- * main - Entry point
+ * main 7yEntry point
  *
  * Description: prints _putchar using putchar prototype
  *
  * Return: Always 0 (Success)
-*/
+*t/
 
 int main(void)
 {
